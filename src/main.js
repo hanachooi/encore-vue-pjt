@@ -11,8 +11,17 @@ import { createApp } from 'vue'
 // import App from './AppHome.vue'
 // createApp(App).mount('#app')
 
-import App from './AppIntro.vue'
+// import App from './AppIntro.vue' 
+// createApp(App).mount('#app')
+
+// import App from './AppContext.vue' 
+// createApp(App).mount('#app')
+
+import App from './AppServer.vue' 
 createApp(App).mount('#app')
+
+
+
 
 
 

@@ -1,5 +1,7 @@
 <template>
     <!-- 
+    - https://github.com/jslim9413/encore-vue-pjt.git
+    
     요구사항
     ############################################
     - 최초 페이지 로딩시 입력된 work 가 없습니다
@@ -9,6 +11,7 @@
     -->
     <div class="container">
         <h2>Encore-Work List</h2>
+        
         <!-- form -> WorkForm.vue 이동 -->
         <WorkForm />
 
