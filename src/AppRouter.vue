@@ -4,12 +4,12 @@
     
     요구사항
     ############################################
-    가상의 DB 서버 json-server
-    - npm install -g json-server@0.17.0
-    - root - encore.json 
-    - json-server --watch encore.json
-    ########## ajax - axios
-    - npm i axios
+    Vue Router 
+    - 페이지이동 
+    - 카드목록에서 카드를 선택했을 때 상세페이지로 이동 
+    - 설치 : npm install vue-router@4   
+    - src - router - index.js (config)
+    - main.js : router 등록
     ###########################################
     -->
     <div class="container">
