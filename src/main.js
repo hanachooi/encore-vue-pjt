@@ -1,5 +1,5 @@
-import { createApp } from 'vue'
-
+import { createApp } from 'vue';
+import router from './router';
 // 서버기동 npm run serve
 
 // import App from './App.vue'
@@ -17,8 +17,12 @@ import { createApp } from 'vue'
 // import App from './AppContext.vue' 
 // createApp(App).mount('#app')
 
-import App from './AppServer.vue' 
-createApp(App).mount('#app')
+// import App from './AppRouter.vue' 
+// createApp(App).use(router).mount('#app')
+
+import App from './AppRead.vue' 
+createApp(App).use(router).mount('#app')
+
 
 
 

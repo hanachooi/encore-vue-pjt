@@ -4,22 +4,10 @@
     
     요구사항
     ############################################
-    Vue Router 
-    - 페이지이동 
-    - 카드목록에서 카드를 선택했을 때 상세페이지로 이동 
-    - 설치 : npm install vue-router@4   
-    - src - router - index.js (config)
-    - main.js : router 등록
-
-    - 페이지 트랜지션 발생할려면 
-    - <router-view/>
-    - 기존 href 속성을 사용해서는 안된다. 
-    - to 속성으로 href 대체
-    - <a> -> <router-link>   : template
-    - router.push(); : script 
-    ////////////// 이벤트 버블링
-    - click.stop , prevent
-    ###########################################
+    - 카드목록 선택시 상세페이지로 이동 
+    - 상세페이지에서 데이터 수정 및 상태정보 수정발생하였을 때
+    - json-server 통신을 통해서 데이터 업데이트 하는 작업 
+    ############################################
     -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
@@ -33,7 +21,10 @@
     </div>
     </nav>
 
-    <router-view />
+    <div class="container">
+        <router-view />
+    </div>
+    
 </template>
   
 <script>
